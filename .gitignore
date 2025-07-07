@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+image-classification-env*/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Logs and local data
+*.log
+*.sqlite3
+
+
+# TensorBoard logs
+logs/
+runs/
+
+# Environment configuration
+*.env
+.env.*
+
+# Requirements
+pip-log.txt
+
+# Ignore requirements backup
+requirements.txt~
