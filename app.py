@@ -4,7 +4,7 @@ import cv2
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-pkl_path = 'intel_image.h5'
+pkl_path = 'intel_image_cleaned.h5'
 
 # loading the model
 model = load_model(pkl_path)
@@ -14,7 +14,7 @@ labels = ['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street']
 
 with st.sidebar:
     st.subheader('Available Labels')
-    st.markdown('- buildings')
+    st.markdown('- building')
     st.markdown('- forest')
     st.markdown('- glacier')
     st.markdown('- mountain')
